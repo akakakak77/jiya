@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .images img {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+        }
+        .message {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .buttons button {
+            font-size: 18px;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            background-color: #ff4081;
+            border: none;
+            color: white;
+            border-radius: 5px;
+        }
+        .buttons button:hover {
+            background-color: #ff1f72;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Display 15 images -->
+        <div class="images">
+            <img src="WhatsApp%20Image%202025-02-03%20at%2013.09.20_684f2ec9.jpg" alt="Image 1">
+            <img src="WhatsApp%20Image%202025-02-03%20at%2013.09.47_73e9423c.jpg" alt="Image 2">
+            <img src="WhatsApp%20Image%202025-02-03%20at%2013.09.47_793138f8.jpg" alt="Image 3">
+            <img src="WhatsApp%20Image%202025-02-03%20at%2013.09.48_1a4e8321.jpg" alt="Image 4">
+            <img src="WhatsApp%20Image%202025-02-03%20at%2013.09.50_c66ee039.jpg" alt="Image 5">
+            <img src="WhatsApp%20Image%202025-02-03%20at%2013.09.52_83a4a510.jpg" alt="Image 6">
+            <img src="WhatsApp%20Image%202025-02-03%20at%2013.09.53_14fa6306.jpg" alt="Image 7">
+            <img src="WhatsApp%20Image%202025-02-03%20at%2013.09.53_a6c0ceb0.jpg" alt="Image 8">
+            <img src="WhatsApp%20Image%202025-02-03%20at%2013.09.54_251cb023.jpg" alt="Image 9">
+            <img src="WhatsApp%20Image%202025-02-03%20at%2013.09.55_1f699241.jpg" alt="Image 10">
+            <img src="WhatsApp%20Image%202025-02-03%20at%2013.09.56_29c2f1ff.jpg" alt="Image 11">
+            <img src="WhatsApp%20Image%202025-02-03%20at%2013.09.56_c33b5b31.jpg" alt="Image 12">
+            <img src="WhatsApp%20Image%202025-02-03%20at%2013.09.57_1de66d8c.jpg" alt="Image 13">
+            <img src="WhatsApp%20Image%202025-02-03%20at%2013.09.57_43d5a2d0.jpg" alt="Image 14">
+            <img src="WhatsApp%20Image%202025-02-03%20at%2013.09.58_85a99047.jpg" alt="Image 15">
+        </div>
+
+        <!-- Display text -->
+        <div class="message">
+            Will you be my Valentine?
+        </div>
+
+        <!-- Buttons for user interaction -->
+        <div class="buttons">
+            <button onclick="alert('Thank you! You are so sweet!')">Yes</button>
+            <!-- Redirect to another page when 'Absolutely Yes' is clicked -->
+            <button onclick="window.location.href = 'message.html';">Absolutely Yes</button>
+        </div>
+    </div>
+
+</body>
+</html>
+
